@@ -97,5 +97,4 @@ class MMR:
             selected_indices.append(best_candidate)
             candidate_indices.remove(best_candidate)
 
-        # Return the selected chunks
         return [chunks[i] for i in selected_indices]
