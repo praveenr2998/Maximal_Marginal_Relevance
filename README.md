@@ -2,8 +2,9 @@
 
 This is a Python implementation of the Maximal Marginal Relevance (MMR) algorithm for reranking text chunks based on their relevance and diversity.
 
-##
+## MMR
 The formula for MMR score for a candidate is
+
 $$
 \text{score(candidate)} = \lambda \cdot \text{similarity(query, candidate)} - (1 - \lambda) \cdot \max\Big(\text{similarity(candidate, selected texts)}\Big)
 $$
