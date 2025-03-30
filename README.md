@@ -9,6 +9,8 @@ $$
 \text{score(candidate)} = \lambda \cdot \text{similarity(query, candidate)} - (1 - \lambda) \cdot \max\Big(\text{similarity(candidate, selected texts)}\Big)
 $$
 
+NOTE : Update value of lambda as per requirements in main.py
+
 ## SETUP
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
