@@ -10,7 +10,7 @@ if __name__ == "__main__":
         "Investments in renewable energy are growing worldwide.",
         "Fossil fuels contribute to climate change.",
         "Renewable energy can lead to economic growth.",
-        "There are many challenges in transitioning to renewable energy."
+        "There are many challenges in transitioning to renewable energy.",
     ]
 
     reranked_chunks = reranker.mmr(query, chunks, top_n=3, lambda_param=0.2)

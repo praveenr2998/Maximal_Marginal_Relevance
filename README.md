@@ -2,6 +2,10 @@
 
 This is a Python implementation of the Maximal Marginal Relevance (MMR) algorithm for reranking text chunks based on their relevance and diversity.
 
+$$
+\text{score(candidate)} = \lambda \cdot \text{similarity(query, candidate)} - (1 - \lambda) \cdot \max\Big(\text{similarity(candidate, selected\_texts)}\Big)
+$$
+
 ## SETUP
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
