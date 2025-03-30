@@ -10,10 +10,10 @@ $$
 $$
 
 NOTE : Update value of lambda as per requirements in main.py
-1. Higher lambda value - Algorithm prioritizes relevance over diversity.
-2. Lower lambda value - Algorithm prioritizes diversity over relevance.
-3. High candidate score(MMR score) - A high score indicates that the candidate is both highly relevant to the query and not too similar to any of the chunks already selected. In other words, it adds new, useful information while still being on-topic.
-4. Low candidate score(MMR score) could mean two things - 
+1. **Higher lambda value** - Algorithm prioritizes relevance over diversity.
+2. **Lower lambda value** - Algorithm prioritizes diversity over relevance.
+3. **High candidate score(MMR score)** - A high score indicates that the candidate is both highly relevant to the query and not too similar to any of the chunks already selected. In other words, it adds new, useful information while still being on-topic.
+4. **Low candidate score(MMR score)** - could mean two things
     * The candidate is not very similar to the query, so it isn’t relevant.
     * The candidate is too similar to what’s already been selected, meaning it doesn’t contribute additional, diverse information.
 
